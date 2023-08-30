@@ -1,9 +1,7 @@
 import React from 'react'
 import Welcome from '../components/Welcome'
 import ButtonWelcome from '../components/ButtonWelcome'
-import ArrowLeft from '../components/ArrowLeft'
 import Carrousel from '../components/Carrousel'
-import ArrowRight from '../components/ArrowRight'
 
 export default function Index() {
   return (
@@ -13,9 +11,7 @@ export default function Index() {
             <ButtonWelcome/>
         </div>
         <div className="max-md:hidden md: my-5 w-10/12 h-56 bg-gradient-to-r from-indigo-700 to-indigo-500 flex items-center px-5 justify-between md:h-1/4">
-            <ArrowLeft/>
-            <Carrousel/>
-            <ArrowRight/>       
+            <Carrousel/>  
         </div>
     </main>
   )
